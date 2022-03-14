@@ -6,7 +6,7 @@ import { Typography } from "@material-ui/core";
 const SignIn = () => {
   const classes = useStyles();
   const [userName, setUserName] = useState("Ahihi");
-  const [passWord, setPassword] = useState("");
+  const [passWord, setPassword] = useState("password");
 
   return (
     <>
