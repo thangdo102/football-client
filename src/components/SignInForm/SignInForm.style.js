@@ -5,28 +5,39 @@ export const useStyles = makeStyles(
     root: {
       width: "100%",
       height: "100vh",
+      backgroundColor: 'yellow',
     },
-    logginText: {
-      color: 'red',
-      fontSize: 18
+    imgLoginPage:{
+      width: "100%",
+      height: "100%",
+      position: 'relative',
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
     },
-    inputText: {
-      width: 200,
-      height: 50,
+    loginForm: {
+      width: 300,
+      height: 300,
+      position: 'absolute',
+      right: "45%",
+      top: '20%',
+      margin: 20,
+      maxWidth: 300,
+      padding: 16,
+      backgroundColor: "pink",
     },
-    textInput:{
-display : 'flex'
+    input:{
+      display: 'flex',
+      marginTop: 30
     },
-    formLoggin:{
-      // display: 'flex'
+    textField: {
+      marginRight: 10,
+      width: 100,
+      height: 20
     },
-    form: {
-      width: 200,
-      height: 200,
-      top: "20%",
-      left: "50%",
-      position: 'absolute'
-    },
+    inputText:{
+      marginLeft: 10
+    }
   }),
   { index: 1 }
 );

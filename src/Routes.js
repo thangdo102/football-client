@@ -13,7 +13,7 @@ export default function Routes() {
       <Router>
         <Switch>
           <HomePage path="/homePage"/>
-          <SignInForm path="/loggin" />
+          <SignInForm path="/login" />
         </Switch>
       </Router>
     </>
